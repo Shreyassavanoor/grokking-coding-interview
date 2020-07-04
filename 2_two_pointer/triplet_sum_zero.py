@@ -23,6 +23,7 @@ def triplet_sum_zero(arr):
 def main():
     triplet_sum_zero([-3, 0, 1, 2, -1, 1, -2])
     triplet_sum_zero([-5, 2, -1, -2, 3])
+    triplet_sum_zero([-1,0,1,2,-1,-4])
 
 
 if __name__ == '__main__':

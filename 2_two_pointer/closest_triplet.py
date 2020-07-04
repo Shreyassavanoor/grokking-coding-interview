@@ -1,3 +1,4 @@
+#wrong
 def closet_triplet(arr, target):
     arr.sort()
     closet_sum = 0
@@ -19,6 +20,7 @@ def main():
     closet_triplet([-2, 0, 1, 2], 2)
     closet_triplet([-3, -1, 1, 2], 1)
     closet_triplet([1, 0, 1, 1], 100)
+    closet_triplet([-1,2,1,-4], 1)
 
 
 if __name__ == '__main__':
